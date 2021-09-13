@@ -1,9 +1,7 @@
-toegangsticket = 7.45 * 4
-games = 36 * 0.37
-
-totaal = (7.45 * 4 + 36 * 0.37)
-
-print("Dit geweldige dagje-uit met 4 mensen in de Speelhal met 45 minuten VR kost je maar 44.44 euro" +str(totaal))
-
-
-
+aantalPersonen = float(input('aantal personen '))
+kostenPersonen = 7.45
+vipVr = float(input('aantal minuten '))
+kostenVr = 0.37
+factuurkosten = 'dit geweldige dagje uit in de speelhal met of zonder vip VR Game Seat kost je maar ' + str((aantalPersonen) * (kostenPersonen) + (vipVr) / 5 * (kostenVr)) + ' euro'
+ 
+print(factuurkosten)
